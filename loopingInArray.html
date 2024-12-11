@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Looping an array</title>
+</head>
+<body>
+  <p>Subjects in fourth sem:</p>
+  <p id="demo"></p>
+  <script>
+    const subjects = ["dsa", "computer graphics", "numerical methods", "applied mathematics", "advanced electronics"];
+
+    let list = subjects.length - 1;
+    let text = "<ul>"
+    for(let i = 0; i <= list; i++){
+      text += "<li>" + subjects[i] + "</li>";
+    }
+    text += "</ul>"
+    document.getElementById("demo").innerHTML = text;
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>innerHTML</title>
+</head>
+<body>
+  <h1 style="text-align: center;">How to use innerHTML?</h1>
+  <p id="p1">It basically helps us to write into an HTML element.</p>
+  
+  <button onclick="fun1()">Click Me!</button>
+  <button onclick="window.print()">Print this page</button>
+
+  <script>
+    //alert("Welcome");
+    //Javascript is the list of programming statements.
+    function fun1(){
+      document.getElementById("p1").innerHTML="The paragraph is changed";
+    }
+  </script>
+</body>
+</html>

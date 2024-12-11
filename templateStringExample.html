@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template String Example</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <script>
+    let header = "Engineering College in Nepal";
+    let list = ["erc", "pulchowk", "wrc", "fwrc", "thapathali"];
+
+    let html = `<h1>${header}</h1><ul>`;
+
+    for (const x of list){
+      html += `<li>${x}</li>`;
+    }
+
+    html += `</ul>`;
+
+    document.getElementById("demo").innerHTML = html;
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* .myParagraph{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newClass{
+  background-color: chocolate;
+
+} */
+
+.dark{
+  color: white;
+  background-color: black;
+}
+.light{
+  color: black;
+  background-color: white;
+}
